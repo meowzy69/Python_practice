@@ -8,8 +8,8 @@ A collection of practice files as I explore Python and its popular libraries lik
 `python_basics.py` – Core Python concepts and syntax practice
 
 ## Purpose
-This repo is my learning playground — where I write, break, and fix code to improve my Python skills.  
-I'm building a strong foundation one script at a time.
+This repo is my learning playground where I write, break, and fix code to improve my Python skills.  
+I'm building a strong foundation.
 
 ## Future Plans
 - Dive deeper into pandas and data analysis
