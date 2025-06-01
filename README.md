@@ -3,7 +3,7 @@
 A collection of practice files as I explore Python and its popular libraries like NumPy, Matplotlib, and more.
 
 ## What's Inside
-`numpy_practice.py` – Hands-on with arrays, operations, and slicing
+`numpy_practice.py` – practicing numpy from beginner to advance
 `matplotlib_practice.py` – Plotting graphs, charts, and data visualization
 `python_basics.py` – Core Python concepts and syntax practice
 
