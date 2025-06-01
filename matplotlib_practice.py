@@ -63,3 +63,29 @@ plt.title('Pie Chart')
 
 plt.tight_layout()  
 plt.show()  
+plt.clf()  # Clear the current figure
+
+# Challenge : Creating three subplots on 1 row
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 35]
+
+plt.figure(figsize=(15, 5))  # line
+
+plt.subplot(1, 3, 1)
+plt.plot(x, y, color='blue')
+plt.title('Line Chart')
+
+# bar
+plt.subplot(1, 3, 2)
+plt.bar(x, y, color='orange')
+plt.title('Bar Chart')
+
+# scatter
+plt.subplot(1, 3, 3)
+plt.scatter(x, y, color='green')
+plt.title('Scatter Plot')
+
+plt.tight_layout()  
+plt.show()  
+plt.clf()  # Clear the current figure
