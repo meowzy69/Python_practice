@@ -88,4 +88,17 @@ plt.title('Scatter Plot')
 
 plt.tight_layout()  
 plt.show()  
-plt.clf()  # Clear the current figure
+
+
+# Learning to style the plots
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 35]
+
+plt.figure()
+plt.plot(x, y, color = 'green', linestyle='--', linewidth=2, marker='o', markersize=8) 
+plt.title('Styled Line Chart')
+plt.xlabel('X-axis Label')
+plt.ylabel('Y-axis Label')
+plt.grid(True)
+plt.show()  
