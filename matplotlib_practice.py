@@ -63,7 +63,7 @@ plt.title('Pie Chart')
 
 plt.tight_layout()  
 plt.show()  
-plt.clf()  # Clear the current figure
+
 
 # Challenge : Creating three subplots on 1 row
 
@@ -96,9 +96,16 @@ x = [1, 2, 3, 4, 5]
 y = [10, 20, 25, 30, 35]
 
 plt.figure()
-plt.plot(x, y, color = 'green', linestyle='--', linewidth=2, marker='o', markersize=8) 
-plt.title('Styled Line Chart')
-plt.xlabel('X-axis Label')
-plt.ylabel('Y-axis Label')
+plt.plot(x, y, color='purple')
+plt.title("Custom Font & Background", fontsize=16, fontweight='bold')
+plt.xlabel("X Label", fontsize=12)
+plt.ylabel("Y Label", fontsize=12)
+
+# Change background
+plt.gca().set_facecolor('#f5f5f5')  # Light grey
 plt.grid(True)
-plt.show()  
+plt.show()
+
+
+
+
